@@ -6,3 +6,17 @@ How to scale current manual processes and resources to screen 500,000 projects s
 How to increase the consistency of project vetting across different volunteers to improve the experience for teachers
 How to focus volunteer time on the applications that need the most assistance
 The goal of the competition is to predict whether or not a DonorsChoose.org project proposal submitted by a teacher will be approved, using the text of project descriptions as well as additional metadata about the project, teacher, and school. DonorsChoose.org can then use this information to identify projects most likely to need further review before approval.
+
+GloVe: Global Vectors for Word Representation Jeffrey Pennington,   Richard Socher,   Christopher D. Manninghttps://nlp.stanford.edu/projects/glove/
+
+Introduction
+
+GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.
+
+Download pre-trained word vectors
+Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors, 1.75 GB download): glove.42B.300d.zip(http://nlp.stanford.edu/data/glove.42B.300d.zip)
+
+Citing GloVe
+
+Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation. [pdf] [bib]
+
